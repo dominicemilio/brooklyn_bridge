@@ -1,0 +1,53 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 300px;
+    height: 620px;
+}
+
+.hero-image {
+    width: 300px;
+    height: 204px;
+}
+
+.content {
+    background-color: white;
+    width: 300px;
+    height: 320px;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    color: blue;
+}
+
+h1 {
+    font-weight: bold;
+    color: black;
+}
+
+p {
+    color: darkgray;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: blue;
+    color: white;
+}
+
+.grid-item {
+    text-align: center;
+    padding: 10px;
+}
